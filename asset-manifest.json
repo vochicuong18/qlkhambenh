@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/qlkhambenh/static/css/main.e8434a20.chunk.css",
+    "main.js": "/qlkhambenh/static/js/main.a350dc82.chunk.js",
+    "main.js.map": "/qlkhambenh/static/js/main.a350dc82.chunk.js.map",
+    "runtime-main.js": "/qlkhambenh/static/js/runtime-main.610248d0.js",
+    "runtime-main.js.map": "/qlkhambenh/static/js/runtime-main.610248d0.js.map",
+    "static/css/2.bb50fc57.chunk.css": "/qlkhambenh/static/css/2.bb50fc57.chunk.css",
+    "static/js/2.74d3e5d0.chunk.js": "/qlkhambenh/static/js/2.74d3e5d0.chunk.js",
+    "static/js/2.74d3e5d0.chunk.js.map": "/qlkhambenh/static/js/2.74d3e5d0.chunk.js.map",
+    "static/js/3.52a9a93e.chunk.js": "/qlkhambenh/static/js/3.52a9a93e.chunk.js",
+    "static/js/3.52a9a93e.chunk.js.map": "/qlkhambenh/static/js/3.52a9a93e.chunk.js.map",
+    "index.html": "/qlkhambenh/index.html",
+    "static/css/2.bb50fc57.chunk.css.map": "/qlkhambenh/static/css/2.bb50fc57.chunk.css.map",
+    "static/css/main.e8434a20.chunk.css.map": "/qlkhambenh/static/css/main.e8434a20.chunk.css.map",
+    "static/js/2.74d3e5d0.chunk.js.LICENSE.txt": "/qlkhambenh/static/js/2.74d3e5d0.chunk.js.LICENSE.txt",
+    "static/media/bg.6b074eab.mp4": "/qlkhambenh/static/media/bg.6b074eab.mp4",
+    "static/media/bg_doctor.0224feef.mp4": "/qlkhambenh/static/media/bg_doctor.0224feef.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.610248d0.js",
+    "static/css/2.bb50fc57.chunk.css",
+    "static/js/2.74d3e5d0.chunk.js",
+    "static/css/main.e8434a20.chunk.css",
+    "static/js/main.a350dc82.chunk.js"
+  ]
+}
