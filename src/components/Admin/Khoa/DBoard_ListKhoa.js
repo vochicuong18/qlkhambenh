@@ -1,8 +1,8 @@
 import React,{ Component } from 'react';
 import { Layout, Breadcrumb } from 'antd';
 import axios from 'axios';
-import TableRow from '../Admin/TableRow';
-import ModalAddDoctor from '../Admin/Modal_AddDoctor';
+import TableRowKhoa from './TableRowKhoa';
+import ModalAddKhoa from '../Khoa/Modal_AddKhoa';
 const Content = Layout;
 class DBoard_ListDortor extends Component{
     constructor(props) {
@@ -10,7 +10,7 @@ class DBoard_ListDortor extends Component{
         this.state = {bacsi: []};
     }
     componentDidMount() {
-        axios.get('http://localhost:3000/api/bacsi')
+        axios.get('http://113.173.154.51:9000/khoa/get')
             .then(response => {
                 console.log(response.data);
                 this.setState({bacsi: response.data});               
@@ -21,7 +21,7 @@ class DBoard_ListDortor extends Component{
     }
     tabRow() {
         return this.state.bacsi.map(function (object, i) {
-            return <TableRow obj={object} key={i}/>;
+            return <TableRowKhoa obj={object} key={i}/>;
         });
     }
     render () {        
@@ -29,7 +29,7 @@ class DBoard_ListDortor extends Component{
             <Content style={{ margin: '0 16px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
               <Breadcrumb.Item>
-                <strong className="title__table">Danh sách bác sĩ</strong>              
+                <strong className="title__table">Danh sách chuyên khoa</strong>              
               </Breadcrumb.Item>
               <Breadcrumb.Item> 
                 <button type="button" className="btn btn-info btn-sm button__table" data-toggle="modal" data-target="#themBacSi">Thêm mới</button>
@@ -41,11 +41,9 @@ class DBoard_ListDortor extends Component{
                         <thead className="thead-light">
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Tên bác sĩ</th>
-                                <th scope="col">Chuyên khoa</th>
-                                <th scope="col">Nơi đào tạo</th>
-                                <th scope="col">Bằng cấp</th>
-                                <th scope="col">Hình ảnh</th>
+                                <th scope="col">Tên Khoa</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Avatar</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
@@ -54,7 +52,7 @@ class DBoard_ListDortor extends Component{
                         </tbody>
                     </table>
                 </div>             
-                <ModalAddDoctor></ModalAddDoctor> 
+                <ModalAddKhoa></ModalAddKhoa> 
             </div>
           </Content>
 

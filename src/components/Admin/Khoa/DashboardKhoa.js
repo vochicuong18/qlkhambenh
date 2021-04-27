@@ -1,6 +1,7 @@
 import React,{ Component } from 'react';
 import 'antd/dist/antd.css';
 import { Layout, Menu } from 'antd';
+import DBoardListKhoa from './DBoard_ListKhoa'
 import {Link} from "react-router-dom"
 
 import {
@@ -48,7 +49,7 @@ class Dashboard extends Component {
         </Sider>
         <Layout className="site-layout">
           <Header className="site-layout-background" style={{ padding: 0 }} />
-            Test
+            <DBoardListKhoa/>
           <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
         </Layout>
       </Layout>

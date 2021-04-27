@@ -7,13 +7,13 @@ export default class list extends Component {
         return (
             <div className="list__item">
                 <div  className="item__avatar">
-                    <Image src="https://i.pinimg.com/originals/7c/c7/a6/7cc7a630624d20f7797cb4c8e93c09c1.png" width="37%" roundedCircle />
+                    <Image src={this.props.obj.logo} width="37%" roundedCircle />
                 </div>
                 <div className="item__name">
                     <Form.Label >{this.props.obj.name}</Form.Label>
                 </div>
                 <div className="item__chuyenkhoa">
-                    <Form.Label >{this.props.obj.chuyenkhoa}</Form.Label>
+                    <Form.Label >{this.props.obj.description}</Form.Label>
                 </div>
                 {/* <div className="br"> </div> */}
                 <div className="item__content">

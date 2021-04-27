@@ -61,21 +61,17 @@ export default class Modal_AddDoctor extends React.Component {
                             <div className="modal-body">                           
                                 <div className="form-group">
                                     <label htmlFor="">Họ tên:</label>
-                                    <input type="text" name="" id="" className="form-control" placeholder="" aria-describedby="helpId" maxLength ={50}
-                                 onChange={this.handleChangeName}/>
+                                    <input type="text" name="" id="" className="form-control" placeholder="" aria-describedby="helpId" maxLength ={50} onChange={this.handleChangeName}/>
                                     <label htmlFor="">Chuyên khoa:</label>
                                     <input type="text" name="" id="" className="form-control" placeholder="" aria-describedby="helpId" onChange={this.handleChangeCK} />
-                                
                                     <div className='row'>
                                         <div className='col'>
                                             <label htmlFor="">Nơi đào tạo:</label>
-                                            <input type="text" name="" id="" className="form-control" placeholder="" aria-describedby="helpId" onChange={this.handleChangeNDT}
-                                       />
+                                            <input type="text" name="" id="" className="form-control" placeholder="" aria-describedby="helpId" onChange={this.handleChangeNDT}/>
                                         </div>
                                         <div className='col'>
                                             <label htmlFor="">Bằng cấp:</label>
-                                            <input type="text" name="" id="" className="form-control" placeholder="" aria-describedby="helpId" onChange={this.handleChangeBC}
-                                        />
+                                            <input type="text" name="" id="" className="form-control" placeholder="" aria-describedby="helpId" onChange={this.handleChangeBC}/>
                                         </div>
                                     </div>                               
                                     <label htmlFor="">Avatar:</label>

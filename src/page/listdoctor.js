@@ -12,7 +12,7 @@ export default class listdoctor extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3000/api/bacsi')
+        axios.get('http://113.173.154.51:9000/khoa/get')
             .then(response => {
                 console.log(response.data);
                 this.setState({bacsi: response.data});               
