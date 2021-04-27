@@ -30,16 +30,6 @@ class Carsousel extends Component {
                         <span className="sr-only">Next</span>
                     </a>
                 </div>
-                <div className="feel">
-                <h2 className="title">Bạn cảm thấy thế nào?</h2>
-                <p className="">Hãy nói với chúng tôi để LCHealth giúp bạn giải quyết vấn đề</p>
-                <div className="wapper__feel">
-                    <div className="input__feel">
-                        <input type="text" name="" id="" className="form-control textfeel" placeholder="Triệu chứng bệnh"></input>
-                        <button type="button" className="btn btn-info">Chẩn đoán</button>
-                    </div>
-                </div>  
-            </div>
             </div>
         );
 

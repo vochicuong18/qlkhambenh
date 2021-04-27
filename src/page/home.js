@@ -9,9 +9,6 @@ import Footer from '../components/Default/Footer';
 import Sercal from '../components/Home/SerCal';
 import TrieuChung from '../components/TrieuChung';
 import Header from '../components/Default/Header';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
-
-
 class Home extends Component {
   render () {
     return (
@@ -27,7 +24,6 @@ class Home extends Component {
         <Sercal></Sercal>
         <Post></Post>
         <Footer></Footer>
-        <MessengerCustomerChat pageId="108380881327643" appId="311999750359473"/>
       </div>
     )
 
